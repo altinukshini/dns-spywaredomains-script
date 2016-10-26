@@ -1,3 +1,3 @@
-# dns-spywaredomains-script
+# DNS spywaredomains zones script
 
-A bash script that updates named zones file for dns server from dns-bh.sagadc.org
+Very simple shell script to automate the process of updating spywaredomain zones file from http://dns-bh.sagadc.org and reload named
