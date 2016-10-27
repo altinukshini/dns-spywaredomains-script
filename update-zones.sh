@@ -20,7 +20,7 @@ echo "Downloading spywaredomains.zones.zip..."
 wget -P /tmp http://dns-bh.sagadc.org/spywaredomains.zones.zip
 
 # Extract zip, rename file to new zones, remove zip and
-cd /tmp ; unzip spywaredomains.zones.zip ; rm spywaredomains.zones.zip ; mv spywaredomains.zones new.zones ; cd /home/altin/src/git/dns-spywaredomains-script
+cd /tmp ; unzip spywaredomains.zones.zip ; rm spywaredomains.zones.zip ; mv spywaredomains.zones new.zones ; cd /etc/named
 
 echo "Backing up spywaredomains.zones to spywaredoains.zones.old..."
 # Backup old zones
